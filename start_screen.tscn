@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://njubl7md8tgv"]
+
+[ext_resource type="Texture2D" uid="uid://r2x7oiec3l7k" path="res://Images/TempStartScreen.webp" id="1_pevhg"]
+[ext_resource type="Script" uid="uid://q7nu58xmw0dd" path="res://button.gd" id="2_afy8x"]
+
+[node name="StartScreen" type="Node2D" unique_id=31478477]
+metadata/_edit_horizontal_guides_ = [-6.0, 655.0]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1354033113]
+position = Vector2(578, 324)
+scale = Vector2(3.2, 3.2)
+texture = ExtResource("1_pevhg")
+
+[node name="Button" type="Button" parent="." unique_id=477343377]
+offset_left = 456.0
+offset_top = 265.0
+offset_right = 647.0
+offset_bottom = 318.0
+text = "Start A New Game"
+script = ExtResource("2_afy8x")

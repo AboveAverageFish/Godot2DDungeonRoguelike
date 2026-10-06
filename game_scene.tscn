@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://daangag2mbbsw"]
+
+[ext_resource type="Script" uid="uid://c3k80gpwcgbjp" path="res://random_layout.gd" id="1_mlf6e"]
+
+[node name="GameScene" type="Node2D" unique_id=2010181502]
+
+[node name="random_layout" type="Node2D" parent="." unique_id=906986401]
+script = ExtResource("1_mlf6e")
